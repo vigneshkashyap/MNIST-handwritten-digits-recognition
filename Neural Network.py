@@ -103,7 +103,7 @@ hidden_layer_size = 40
 output_layer = 10
 
 # Setting our regularization parameter
-Lambda = 0.05
+Lambda = 0.5
 
 # Get the number of training examples
 m = np.size(X_train, axis = 0)
